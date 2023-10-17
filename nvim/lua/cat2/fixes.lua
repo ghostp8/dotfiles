@@ -28,4 +28,8 @@ vim.keymap.set("v", ">", ">gv")
 
 
 -- ensure expandtab is always false (some plugins change it because FU)
+-- not sure what was changig softtabstop and shiftwidth (only effected HTML)
+vim.cmd([[ au BufNewFile,BufRead,BufEnter * set tabstop=4]])
+vim.cmd([[ au BufNewFile,BufRead,BufEnter * set softtabstop=4]])
+vim.cmd([[ au BufNewFile,BufRead,BufEnter * set shiftwidth=4]])
 vim.cmd([[ au BufNewFile,BufRead,BufEnter * set noexpandtab]])
