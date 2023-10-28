@@ -33,7 +33,7 @@ return {
 				lualine_x = {},
 				lualine_y = {"filetype","encoding"},
 				--lualine_z = {'location','%L',"searchcount"}
-				lualine_z = {"%p","%l:%c","%L","searchcount"}
+				lualine_z = {"%p%%","%l:%c","%L","searchcount"}
 			},
 			inactive_sections = {
 				lualine_a = {},

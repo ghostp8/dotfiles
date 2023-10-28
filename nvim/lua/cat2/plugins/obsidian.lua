@@ -15,7 +15,7 @@ return {
 	},
 	opts = {
 		dir = "~/notes",
-		-- notes_subdir = "notes",
+		-- notes_subdir = "test",
 		disable_frontmatter = true, -- can be customized
 		open_notes_in = "hsplit", -- current hsplit vsplit
 
@@ -26,6 +26,7 @@ return {
 			-- Where to put new notes created from completion. Valid options are
 			--  * "current_dir" - put new notes in same directory as the current buffer.
 			--  * "notes_subdir" - put new notes in the default notes subdirectory.
+			-- new_notes_location = "notes_subdir",
 			new_notes_location = "current_dir",
 		},
 
